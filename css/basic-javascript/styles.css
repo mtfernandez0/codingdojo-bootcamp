@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  color: white;
+}
+body{
+  width: 970px;
+  margin: 0 auto;
+}
+#container{
+  background-color: rgb(24, 14, 130);
+  padding: 10px;
+}
+header{
+  padding: 20px;
+  background-color: red;
+  border-radius: 10px;
+}
+aside{
+  width: 160px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgb(0, 124, 156);
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+aside ul, article ul{
+  padding-left: 20px;
+}
+article{
+  width: calc(970px - 250px);
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgb(28, 27, 27);
+  border-radius: 15px;
+  display: inline-block;
+}
+article span{
+  color: aqua;
+}
+footer{
+  padding: 20px;
+  background-color: rgb(154, 154, 154);
+  border-radius: 10px;
+}
+footer a{
+  color: aqua;
+}
